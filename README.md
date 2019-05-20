@@ -138,3 +138,16 @@ Content:
 
 {"response":"<pong>","et":0}
 ```
+```
+Example 4: /health
+
+https://yoursite.com</api/v1/health>
+Content:
+
+{"status":"good"}
+
+----------------------------
+https://yoursite/api/<health>
+Content:
+{"ok":false,"error":"unknown_method","req_method":"<health>"}
+```
