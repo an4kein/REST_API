@@ -65,6 +65,16 @@ HTTP methods have a meaning (usually):
      
      **DELETE**
      
-     
+## REST API Pentest
+
+Get endpoints
+
+Get docs
+
+Get keys/credentials
+
+Get sample calls !!
+
+
     
     
