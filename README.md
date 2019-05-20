@@ -204,3 +204,27 @@ Provide production-ready features such as metrics health checks and externalized
 /swagger-ui.html
 /swagger.json
 ```
+
+## Finding Sample Calls
+```
+Still no docs?
+Error messages to the rescue!
+
+GET /api/public/files/109/test.pdf
+[...]
+
+HTTP/1.1 404 NOT FOUND
+[.....]
+
+{ "message":
+"The resquested URL was not found on the server.
+If you entered the URL manually please check your spelling and try again.
+You have requested this URI
+[/api/public/files/109/test.pdf]
+but did you mean
+
+/api/public/files/<intifile_id>/<string:filename> or
+/api/public/countries/<string(length=2):code> or
+/apt/admin/files/types?" )
+```
+
