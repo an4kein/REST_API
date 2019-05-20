@@ -194,3 +194,13 @@ Provide production-ready features such as metrics health checks and externalized
    Content-Dosposition: attachment:
    filename="<heapdump2017-05-00-47-live1546516215946541654.hprof.gz>"
 ```
+## Finding docs:
+
+```
+/api-docs
+/application.wadl  -> sucessor of WSDL web service
+/doc
+/docs
+/swagger-ui.html
+/swagger.json
+```
