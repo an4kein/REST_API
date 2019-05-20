@@ -3,6 +3,9 @@ API research and learning by @Anakein
 -------
 # Sites vulnerabilities and search vulns:
 
+A collaborative list of great resources about RESTful API architecture, development, test, and performance. Feel free to contribute to this on-going list. [Awesome REST](https://github.com/marmelab/awesome-rest#public-rest-apis-to-use-in-tests)
+ 
+
 Some of our tools can be accessed programatically using this API. The tools can be started, stopped and queried for output in a machine-friendly format (JSON). The following tools have support for API: Web Server Scan, Find Subdomains, Find Virtual Hosts, Network Scan OpenVAS, URL Fuzzer, SQLi Scan, XSS Scan, WordPress Scan, Drupal Scan. 
 [API REFERENCE](https://pentest-tools.com/api_reference)
 
