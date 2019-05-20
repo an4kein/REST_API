@@ -165,7 +165,7 @@ Content:
 
 ## Spring Boot Actuator
 
-Spring Boot makes is easy to create stand-alone, production-grade Spring based Application that you can "just run". We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most spring Boot applications need very little spring configuration.
+Spring Boot makes is easy to create stand-alone, production-grade Spring based Application that you can "just run". We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most spring Boot applications need very little spring configuration. https://spring.io/guides/gs/actuator-service/
 
 ### Features
 
