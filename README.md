@@ -228,3 +228,47 @@ but did you mean
 /apt/admin/files/types?" )
 ```
 
+```
+GET /REST/v1/auth HTTP/1.1
+[...]
+
+HTTP/1.1 405 Method Not Allowed
+Allow:  DELETE, OPTIONS, POST
+[...]
+```
+
+```
+POST /REST/v1/auth HTTP/1.1
+Content-Type: application/json
+[...]
+{}
+
+HTTP/1.1 400 Bad Request
+[...]
+
+Could not found a <'username'> parameter
+```
+
+```
+POST /REST/v1/auth HTTP/1.1
+[...]
+<{ 'username' : 'test' }>
+
+HTTP/1.1 400 Bad Request
+[...]
+
+Could not found a <'password'> parameter
+```
+
+```
+POST /REST/v1/auth HTTP/1.1
+[...]
+{ <'username' : 'test', 'password' : 'test'> }
+
+HTTP/1.1 401 Unauthorized
+[...]
+
+Invalid credentials.
+```
+
+Brute force parameter names! https://github.com/maK-/parameth
