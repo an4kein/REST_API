@@ -51,6 +51,7 @@ REFERENCE: https://www.youtube.com/watch?v=zW8QF3x3oSU
 `Data usually is sent as JSON`
 
 `HTTP methods have a meaning (usually):`
+
     - `GET` - List(collection), retrieve data (element)
     
     - `PUT` - replace (all data is changed)
