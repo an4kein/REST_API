@@ -125,7 +125,16 @@ Content:
 /status
 ...
 Dictionaries for <directories> and <filenames> will help
+```
+A wordlist of API names used for fuzzing web application APIs. https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content/api
 
-Wordlist:
-https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content/api
+```
+Example 3: ping
+
+https://yoursite.com</api/v1/ping>
+Content-Type: application/json;charset-utf-8
+Content-Lenght: 26
+Content:
+
+{"response":"<pong>","et":0}
 ```
