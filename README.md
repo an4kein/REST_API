@@ -55,36 +55,31 @@ Data usually is sent as JSON
 
 HTTP methods have a meaning (usually):
 
-     **GET** - List(collection), retrieve data (element)
-    
-     **PUT** - replace (all data is changed)
-    
-     **PACTH** update
-    
-     **POST** - create (new element)
-     
+```
+     **GET** - List(collection), retrieve data (element)    
+     **PUT** - replace (all data is changed)  
+     **PACTH** update    
+     **POST** - create (new element)   
      **DELETE**
-     
+```
+
 ## REST API Pentest
 
+```
 Get endpoints
-
 Get docs
-
 Get keys/credentials
-
 Get sample calls !!
+```
 
 ## REST API Bug bounty
 
+```
 Sometimes no known endpoints
-
 Sometimes no docs
-
 Sometimes no keys/credentials
-
 sometimes no sample calls !!
-    
+```
     
 ## Findings endpoints
 
