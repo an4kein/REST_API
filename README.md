@@ -56,11 +56,11 @@ Data usually is sent as JSON
 HTTP methods have a meaning (usually):
 
 ```
-     **GET** - List(collection), retrieve data (element)    
-     **PUT** - replace (all data is changed)  
-     **PACTH** update    
-     **POST** - create (new element)   
-     **DELETE**
+     GET - List(collection), retrieve data (element)    
+     PUT - replace (all data is changed)  
+     PACTH update    
+     POST - create (new element)   
+     DELETE
 ```
 
 ## REST API Pentest
