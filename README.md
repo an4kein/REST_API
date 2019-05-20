@@ -28,3 +28,5 @@ How to install bWAPP in Windows?
 How To Install bWAPP- Kali Linux?
 [install_for_kali_linux](https://www.crackitdown.com/2018/05/how-to-install-bwapp-kali-linux.html)
 
+bee:bug
+
