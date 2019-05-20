@@ -10,6 +10,16 @@ Some of our tools can be accessed programatically using this API. The tools can 
 With its increasing popularity, REST APIs pose major security challenges. 
 [rest-api-security-vulnerabilities](https://dzone.com/articles/rest-api-security-vulnerabilities)
 
+Blog post on the topic.
+
+http://www.sempf.net/post/Cracking-and-Fixing-REST-APIs
+
+Tools wise, SmartBear, the company that makes SoapUI, now has a security tool.
+
+https://smartbear.com/product/ready-api/secure/overview/
+
+Of course, Burp and ZAP work fine too, but the SmartBear tool has API specific stuff.
+
 -------
 # LAB
 `bWAPP`, or a buggy web application, is a free and open source deliberately insecure web application.
