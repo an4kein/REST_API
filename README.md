@@ -19,3 +19,12 @@ bWAPP prepares one to conduct successful penetration testing and ethical hacking
 What makes bWAPP so unique? Well, it has over 100 web vulnerabilities!
 It covers all major known web bugs, including all risks from the OWASP Top 10 project.
 [Download bWAPP](https://sourceforge.net/projects/bwapp/files/bWAPP/)
+
+## Install for Windows
+How to install bWAPP in Windows?
+[install_for_windows](https://www.youtube.com/watch?reload=9&v=F3QcgmCuEC0)
+
+## Install for Kali
+How To Install bWAPP- Kali Linux?
+[install-for-kali-linux](https://www.crackitdown.com/2018/05/how-to-install-bwapp-kali-linux.html)
+
