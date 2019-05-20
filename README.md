@@ -54,7 +54,7 @@ HTTP methods have a meaning (usually):
 
      **GET** - List(collection), retrieve data (element)
     
-     **PUT - replace (all data is changed)
+     **PUT** - replace (all data is changed)
     
      **PACTH** update
     
