@@ -92,3 +92,13 @@ sometimes no sample calls !!
 /api/v1/
 /api/v2
 ```
+```
+Example:
+
+https://yoursite.io</api/v1/>
+Content-Type: text/plain
+Content-Lenght: 45
+Content:
+
+<Community Platform API v1>
+```
