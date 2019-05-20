@@ -75,6 +75,14 @@ Get keys/credentials
 
 Get sample calls !!
 
+## REST API Bug bounty
 
+Sometimes no known endpoints
+
+Sometimes no docs
+
+Sometimes no keys/credentials
+
+sometimes no sample calls !!
     
     
