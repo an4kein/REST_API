@@ -179,3 +179,18 @@ Provide opinionated `started` POMs to simplify your Maven configuration
 Automatically configure Spring whenever possible
 Provide production-ready features such as metrics health checks and externalized configuration
 ```
+### Interesting endpoints:
+```
+/actuator
+/health
+/trace
+/logfile
+/metrics
+/heapdump (Spring MVC)
+   - Example:
+   Tested domain: yousite.com
+   
+   /heapdump           :200 , size: 11707186 [11707177]
+   Content-Dosposition: attachment:
+   filename="<heapdump2017-05-00-47-live1546516215946541654.hprof.gz>"
+```
