@@ -1,4 +1,4 @@
-# API
+# REST API
 API research and learning by @Anakein
 -------
 # Sites vulnerabilities and search vulns:
@@ -40,3 +40,18 @@ How To Install bWAPP- Kali Linux?
 
 bee:bug
 
+-------
+# REST API, pentester's perspective
+REFERENCE: https://www.youtube.com/watch?v=zW8QF3x3oSU
+
+## REST API 101
+`REST` - representational state transfer
+`Data usually is sent as JSON`
+`HTTP methods have a meaning (usually):`
+    - `GET` - List(collection), retrieve data (element)
+    - `PUT` - replace (all data is changed)
+    - `PACTH` - update
+    - `POST` - create (new element)
+    - `DELETE`
+    
+    
