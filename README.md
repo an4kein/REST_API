@@ -119,3 +119,10 @@ Content:
 "data": null}
 
 ```
+```
+/ping
+/health
+/status
+...
+Dictionaries for <directories> and <filenames> will help
+```
