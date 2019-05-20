@@ -150,8 +150,29 @@ Content:
 https://yoursite/api/<health>
 Content:
 {"ok":false,"error":"unknown_method","req_method":"<health>"}
+
+----------------------------
+https://yoursite.com/health
+Content:
+
+{"status":"UP","status":{"status":"UP","Tn7 admin":"UP","ims":"UP"}}
+
 ```
 
 ## OSI Model 7 layers
 
 ![OSI7](https://www.cloudflare.com/img/learning/ddos/what-is-a-ddos-attack/osi-model-7-layers.svg)
+
+## Spring Boot Actuator
+
+Spring Boot makes is easy to create stand-alone, production-grade Spring based Application that you can "just run". We take an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most spring Boot applications need very little spring configuration.
+
+### Features
+
+```
+Create stand-alone Spring application
+Embed Tomcat, Jetty or Undertow directly (no need to deploy WAR files)
+Provide opinionated `started` POMs to simplify your Maven configuration
+Automatically configure Spring whenever possible
+Provide production-ready features such as metrics health checks and externalized configuration
+```
