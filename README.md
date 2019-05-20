@@ -125,4 +125,7 @@ Content:
 /status
 ...
 Dictionaries for <directories> and <filenames> will help
+
+Wordlist:
+https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content/api
 ```
