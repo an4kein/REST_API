@@ -46,20 +46,20 @@ REFERENCE: https://www.youtube.com/watch?v=zW8QF3x3oSU
 
 ## REST API 101
 
-`REST` - representational state transfer
+REST - representational state transfer
 
-`Data usually is sent as JSON`
+Data usually is sent as JSON
 
-`HTTP methods have a meaning (usually):`
+HTTP methods have a meaning (usually):
 
-    - `GET` - List(collection), retrieve data (element)
+     **GET** - List(collection), retrieve data (element)
     
-    - `PUT` - replace (all data is changed)
+    PUT - replace (all data is changed)
     
-    - `PACTH` - update
+    - PACTH - update
     
-    - `POST` - create (new element)
+    - POST - create (new element)
     
-    - `DELETE`
+    - DELETE
     
     
