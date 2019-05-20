@@ -86,3 +86,14 @@ Sometimes no keys/credentials
 sometimes no sample calls !!
     
     
+## Findings endpoints
+
+```
+/
+/api/
+/v1/
+/v1.0/
+/v1.1/
+/api/v1/
+/api/v2
+```
