@@ -1,5 +1,5 @@
 # API
-API research and learning
+API research and learning by @Anakein
 -------
 # Sites vulnerabilities and search vulns:
 
