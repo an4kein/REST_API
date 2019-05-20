@@ -102,3 +102,20 @@ Content:
 
 <Community Platform API v1>
 ```
+
+```
+Example 2:
+
+https://yoursite.com</api/v1/>
+Content-Type: application/json
+Content-Lenght: 169
+Content:
+{"meta":
+    {"message":
+         "This is a list of all endpoints avaible at this version",
+    "endpoints": [
+         "http://anothersite.com/<api/v1/health_check>/*
+     ]}
+"data": null}
+
+```
