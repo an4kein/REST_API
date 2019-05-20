@@ -152,5 +152,6 @@ Content:
 {"ok":false,"error":"unknown_method","req_method":"<health>"}
 ```
 
-OSI Model 7 layer
+## OSI Model 7 layers
+
 ![OSI7](https://www.cloudflare.com/img/learning/ddos/what-is-a-ddos-attack/osi-model-7-layers.svg)
