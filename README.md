@@ -48,7 +48,7 @@ REFERENCE: https://www.youtube.com/watch?v=zW8QF3x3oSU
 `REST` - representational state transfer
 `Data usually is sent as JSON`
 `HTTP methods have a meaning (usually):`
-    - `GET` - List(collection), retrieve data (element)
+---- `GET` - List(collection), retrieve data (element)
     - `PUT` - replace (all data is changed)
     - `PACTH` - update
     - `POST` - create (new element)
