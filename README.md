@@ -361,7 +361,7 @@ Access control schemes tend to follow a pattern.
 - If successful, server returns a token, session id, or other identifier to mark the session.
 - Further authenticated requests will follow  a similiar pattern throughout the session.
 
-### Acess Control Bugs
+### Access Control Bugs
 
 - Common ways of testing for access control bugs include:
     - Enumerating potentially restricted endpoints
@@ -370,5 +370,13 @@ Access control schemes tend to follow a pattern.
     - Attempt to bypass restrictions on access with IDOR
     - Modifying the resquest with additional parameters like "&admin=True" or others
     - Modifying referrer headers that the application may expect
+    
+### Access Coontrol Bug - Panera Bread
+
+Exposed API endpoint allowed for complete access to client information
+
+Sequetial numbering of client records allowed for easy enumeration of the entire user database.
+
+Resulted in tens of millions of client records being leaked
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
