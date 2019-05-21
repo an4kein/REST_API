@@ -330,10 +330,10 @@ API Bugs are a common source of news we hear about security breaches
 
 Security issues and vulnerabilities in APIs typically fall into a few distinct categories.
 
-- [Access Controls](access-controls)
-    - [Authorization](authorization)
-    - [Authentication](authentication)
-- [Rate Limiting](rate-limiting)
+- [Access Controls](#access-controls)
+    - [Authorization](#authorization)
+    - [Authentication](#authentication)
+- [Rate Limiting](#rate-limiting)
 - [Input Validation]
 - [Restricting HTTP Methods]
 - [3rd Party API abuse]
