@@ -336,7 +336,7 @@ Security issues and vulnerabilities in APIs typically fall into a few distinct c
 - [Rate Limiting](#rate-limiting)
 - [Input Validation](#input-validation)
 - [Restricting HTTP Methods](#restricting-http-methods)
-- [3rd Party API abuse]
+- [3rd Party API abuse](#3rd-party-api-abuse)
 - [Other application logic errrors]
 
 ## Access Controls
@@ -463,6 +463,23 @@ Sometimes the scope of specific methods is too broad, leading a user to be able 
 Even if these are not included in the application logic., if an application is lazy with this and has no logic to parse, weird things can happen.
 
 ![error405](https://raw.githubusercontent.com/e-anakein/REST_API/master/images/5f30da0f07e6422fee703f2b76e25a81.png)
+
+
+## 3rd Party API abuse
+
+Sometimes APIs call other APIs to achieve their goal. The relationships between the target API and any 3rd party APIs in use is usually trusted in some way. In this case, there are a few interesting attack vectors that should be considered.
+
+**Request splitting**
+
+Making additional requests to 3rd party API through the target API.
+
+**SSRF - Server side Request Forgery**
+
+APIs that can resolve URLs can be tricked into making requests in the context of the server itself. Can lead to enumeration of private internal network, or gaining access to server metadata in a cloud environment.
+
+**Unhandled Input From 3rd Party**
+
+Can result in unexpected errors in the target aplication
 
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
