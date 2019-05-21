@@ -361,4 +361,14 @@ Access control schemes tend to follow a pattern.
 - If successful, server returns a token, session id, or other identifier to mark the session.
 - Further authenticated requests will follow  a similiar pattern throughout the session.
 
+### Acess Control Bugs
+
+- Common ways of testing for access control bugs include:
+    - Enumerating potentially restricted endpoints
+    - Modifying session tokens
+    - Reusing older session tokens
+    - Attempt to bypass restrictions on access with IDOR
+    - Modifying the resquest with additional parameters like "&admin=True" or others
+    - Modifying referrer headers that the application may expect
+
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
