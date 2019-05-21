@@ -481,5 +481,26 @@ APIs that can resolve URLs can be tricked into making requests in the context of
 
 Can result in unexpected errors in the target aplication
 
+## Discord Bug - Concepts
+
+Requests to the Discord API were rate limited only if authenticated.
+
+The invite scheme for Direct Messages was the same as those for server invites. DM invite codes are only used internally and assume that a user is already authorired to be in a group DM if an ivite is used
+
+Invite codes are 6 characters for temporary invite codes.
+
+Two APIs available to test, an older one and a newer one.
+
+```
+admin:admin
+guest:guest
+root:root
+admin:hunter2
+test:test
+```
+
+
+
+
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
