@@ -404,4 +404,15 @@ These include:
 - Lack of input sanitization/escaping unsafe characters
 - Improver handling of parameters
 - Insufficient controls for data types passed (File Upload Bugg, Unicode bugs)
+
+## Input validation Bug - German eID System
+
+Requests to the German eID System required signing of requests to be valid.
+
+The application did not account for the same parameter occurring multiple times.
+
+This allowed for an attacker to get their initial request signed and processed, while the application parsed the last parameter in the request. This means that they would be able to change their identify entirely within the system.  https://www.bleepingcomputer.com/news/security/german-eid-authentication-flaw-lets-you-change-identity/   -  https://www.youtube.com/watch?v=kaATyYmpiIE
+
+
+
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
