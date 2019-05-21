@@ -296,5 +296,25 @@ Check mobile application
 Check GitHub (truffleHog to the rescue)
   - Scan public repos of a company
   - Scan public repos of a company devs
+  
+#1 Jolokia > https://github.com/rhuss/jolokia
+Example: https://example.com/jolokia/write/Tomcat:port=19880,type=Connector/xpoweredBy/true
+X-Powered-By:Servlet/3.1 JSP/2.3(Apache Tomcat/8.0.20 Java/Oracle Corporation/1.8.0_60-b27)
+
+#2 REST API wrongly placed
+  - A form
+  - Putting ID and solving CAPTCHA
+  - sECURED (no way to brute force ID) 
+  - A mobile app with the same feature
+  - No CAPTCHA
+  - No rate limiting
+  - Brute force & profit report to client !
 ```
+
+Summary
+ - Find endpoints
+ - Find docs
+ - Find sample calls
+ - Find keys
+ - Fuzz
 
