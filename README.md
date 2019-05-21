@@ -437,6 +437,21 @@ Custom Scripts
 PROTIP: Speed up your fuzzing by making HEAD requests to API endpoints
 
 ```
+## Rate Limiting
 
+APIs are built  for applications that typically expect a high load and large amount of arbitrary requests. This aspect can be abused to very quickly enumerate the endpoint in ways that are unintentional.
+
+Common ways to test Rate Limiting
+
+Make requests in varying states of authentication.
+
+- as an unauthenticated user
+- as an authenticated user
+- as a developer
+- as a bot
+- with a deactivated account
+- with bogus credentials
+
+An API with improperly implemented rate limiting can be used to make an abnormal amount of requests to enumerate the application and potentially cause other issues.
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
