@@ -334,7 +334,7 @@ Security issues and vulnerabilities in APIs typically fall into a few distinct c
     - [Authorization](#authorization)
     - [Authentication](#authentication)
 - [Rate Limiting](#rate-limiting)
-- [Input Validation]
+- [Input Validation](#input-validation)
 - [Restricting HTTP Methods]
 - [3rd Party API abuse]
 - [Other application logic errrors]
@@ -380,5 +380,18 @@ Sequetial numbering of client records allowed for easy enumeration of the entire
 Resulted in tens of millions of client records being leaked
 
 ![panerabread_leaked](https://raw.githubusercontent.com/e-anakein/REST_API/master/images/panera-2.png)
+
+## Input Validation
+
+Input validation is a very importante attack vector to consider when hunting for bugs.
+
+It's  crucial to remember that input is *anything* that the server takes in, from the user, 3dr party apps, and other internal mechaninms.
+
+### Common places to test in an API
+    - within the request header
+    - Parameters within the URL
+    - Parameters within the request
+    - File uploads (PUT/DELETE requests)
+    - Different request methods
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
