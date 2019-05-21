@@ -335,7 +335,7 @@ Security issues and vulnerabilities in APIs typically fall into a few distinct c
     - [Authentication](#authentication)
 - [Rate Limiting](#rate-limiting)
 - [Input Validation](#input-validation)
-- [Restricting HTTP Methods]
+- [Restricting HTTP Methods](#restricting-http-methods)
 - [3rd Party API abuse]
 - [Other application logic errrors]
 
@@ -453,5 +453,16 @@ Make requests in varying states of authentication.
 - with bogus credentials
 
 An API with improperly implemented rate limiting can be used to make an abnormal amount of requests to enumerate the application and potentially cause other issues.
+
+## Restricting HTTP Methods
+
+APIs are built support a number of HTTP methods. Determining what the application expects and what the application supports are very important hwen fuzzing the API.
+
+Sometimes the scope of specific methods is too broad, leading a user to be able to PUT, DELETE, POST, etc parts of the API that it shouldn't.
+
+Even if these are not included in the application logic., if an application is lazy with this and has no logic to parse, weird things can happen.
+
+![error405](https://raw.githubusercontent.com/e-anakein/REST_API/master/images/5f30da0f07e6422fee703f2b76e25a81.png)
+
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
