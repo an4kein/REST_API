@@ -318,3 +318,47 @@ Summary
  - Find keys
  - Fuzz
 
+--------
+
+# API Security Testing For Hackers
+
+## Overview of API Attack Vectors
+
+### Common API Security Issues
+
+API Bugs are a common source of news we hear about security breaches
+
+Security issues and vulnerabilities in APIs typically fall into a few distinct categories.
+
+- [Access Controls](access-controls)
+    - [Authorization](authorization)
+    - [Authentication](authentication)
+- [Rate Limiting](rate-limiting)
+- [Input Validation]
+- [Restricting HTTP Methods]
+- [3rd Party API abuse]
+- [Other application logic errrors]
+
+## Access Controls
+
+### Authorization
+
+Involves proving that you are who you say you are.
+
+### Authentication
+
+Involves granting access to resources based on your indentify.
+
+Access control schemes tend to follow a pattern.
+
+- Client makes a request to something that requires authentication
+- Server process auth request, checks for things like
+    - If an account/session exists
+    - If the requested resource in within access scope of the client
+    - If any previous cookies or tokens were used in the request
+    - If the way the route to the resource was valid
+    - If any othe conditions the server expects have been met.
+- If successful, server returns a token, session id, or other identifier to mark the session.
+- Further authenticated requests will follow  a similiar pattern throughout the session.
+
+Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
