@@ -271,4 +271,17 @@ HTTP/1.1 401 Unauthorized
 Invalid credentials.
 ```
 
-Brute force parameter names! https://github.com/maK-/parameth
+### Brute force parameter names!
+https://github.com/maK-/parameth
+
+### Analyse JS code
+https://github.com/zseano/JS-Scan
+
+### Dissect mobile app 
+Apk-Scan for Android apps hard-coded URL's
+https://blog.nviso.be/2013/03/29/apkscan-beta-released/
+
+Secure, Unified, Powerful and Extensible Rust Android Analyzer https://superanalyzer.rocks/
+https://github.com/SUPERAndroidAnalyzer/super
+
+
