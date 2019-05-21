@@ -1,4 +1,4 @@
-# REST API
+# REST API for Pentesters
 API research and learning by @Anakein
 -------
 # Sites vulnerabilities and search vulns:
