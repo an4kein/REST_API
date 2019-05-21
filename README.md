@@ -284,4 +284,6 @@ https://blog.nviso.be/2013/03/29/apkscan-beta-released/
 Secure, Unified, Powerful and Extensible Rust Android Analyzer https://superanalyzer.rocks/
 https://github.com/SUPERAndroidAnalyzer/super
 
+Reverse Engineering APIs from Android Apps — Part 1
+https://medium.com/@thomas_shone/reverse-engineering-apis-from-android-apps-part-1-ea3d07b2a6c
 
