@@ -499,8 +499,16 @@ admin:hunter2
 test:test
 ```
 
+## Discord Bug - Methodology
 
-
+```
+Mode requests to the API to see if an invite code was valid
+Sped up brute forcing by making HEAD requests and reading if response was 200.
+Made around 100 requests per second. Found about 1 valid invite per minute.
+Randomly generate invites rather than bruteforcing the entire keyspace.
+Found that generate codes are used as seeds for future codes.
+Enumerated temporary invites only, 6 characters.
+```
 
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
