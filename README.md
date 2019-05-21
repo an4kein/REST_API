@@ -413,6 +413,30 @@ The application did not account for the same parameter occurring multiple times.
 
 This allowed for an attacker to get their initial request signed and processed, while the application parsed the last parameter in the request. This means that they would be able to change their identify entirely within the system.  https://www.bleepingcomputer.com/news/security/german-eid-authentication-flaw-lets-you-change-identity/   -  https://www.youtube.com/watch?v=kaATyYmpiIE
 
+## Input Validation - Fuzzing
+
+```
+Things you can fuzz for:
+
+Remote Code Execution > RCE
+Cross Site Scripting > XSS
+Local/Remote File Inclusion > LFI/RFI
+SQL/NoSQL Injection
+Request Splitting
+Deserialization
+XXE and other templated languages fun
+Encoding errors with Junk characters, Control charecter, Emoji, etc
+File upload vulnerabilities
+SSRF
+
+Tools you can use:
+Burp 
+Enumeration Tools (Gobuster, dirb, Dirsearch, etc)
+Custom Scripts
+
+PROTIP: Speed up your fuzzing by making HEAD requests to API endpoints
+
+```
 
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
