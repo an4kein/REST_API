@@ -287,3 +287,14 @@ https://github.com/SUPERAndroidAnalyzer/super
 Reverse Engineering APIs from Android Apps — Part 1
 https://medium.com/@thomas_shone/reverse-engineering-apis-from-android-apps-part-1-ea3d07b2a6c
 
+## Finding Keys
+
+```
+Check mobile application
+  - Google Play Crawler > https://github.com/nviennot/playdrone
+
+Check GitHub (truffleHog to the rescue)
+  - Scan public repos of a company
+  - Scan public repos of a company devs
+```
+
