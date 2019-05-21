@@ -394,4 +394,14 @@ It's  crucial to remember that input is *anything* that the server takes in, fro
     - File uploads (PUT/DELETE requests)
     - Different request methods
 
+## Input validation Bugs
+
+Depending on the architeture of the application, specific parts of a request may be processed in ways that are unsafe.
+
+These include:
+
+- Improver parameterization of requests within application logic
+- Lack of input sanitization/escaping unsafe characters
+- Improver handling of parameters
+- Insufficient controls for data types passed (File Upload Bugg, Unicode bugs)
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
