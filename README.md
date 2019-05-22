@@ -526,4 +526,20 @@ Able to join private servers
 
 Able to join private group DMs
 
+## Duda Mobile - Concepts
+
+The Duda Mobile website templating service has an API built in to process external links that are loaded and converted into a mobile safe format. It strips Javascript and CSS and attemps to load he website into a present theme.
+
+Able to get past filtering mechanism to bypass javascript filtering.
+
+Could use a mobile site's external rendering API to load third party APIs within the context of any website on their platform.
+
+This allowed for SSRF attacks made on Duda's infrastructure.
+
+mobile.dudasite.com/site/<sitename>/default?url=<externalUrl>
+ 
+ https://www.duda.co/mobile-website
+
+
+
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
