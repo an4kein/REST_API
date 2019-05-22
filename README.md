@@ -536,10 +536,14 @@ Could use a mobile site's external rendering API to load third party APIs within
 
 This allowed for SSRF attacks made on Duda's infrastructure.
 
-mobile.dudasite.com/site/<sitename>/default?url=<externalUrl>
+mobile.dudasite.com/site/<sitename>/default?url=<externalUrl> -
  
  https://www.duda.co/mobile-website
 
+## Duda Mobile - Impact
 
+Led to disclosure of private AWS keys and sensitive information in production AWs account for entire enterprise through SSFR vulnerability in the API.
+
+Also able to load and potentially modify internal router configs by accessing internal IPs.
 
 Source: https://www.youtube.com/watch?v=ijalD2NkRFg&feature=youtu.be
